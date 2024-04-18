@@ -1,0 +1,16 @@
+#Conceptos basicos de NestJs
+- .eslintrc.js: Escribir recomendaciones al escribir codigo.
+- .prettierrc: Definir reglas de formateo de codigo.
+- nest-cli.json: configuracion el framework
+- tsconfig.build.json: alterar la version de typeScript
+- tsconfig.json: 
+=====================================================
+ejecutar proyecto: npm run start:dev
+generar el proyecto en codigo js = npm run build
+ejecutar js en produccion: npm start
+============================
+generacion y configuracion
+
+nest generate module name
+nest generate controller name --no-spec  --> generar un controlador sin el archivo de testing.
+nest g service tasks --> generar un servicio(base de datos, otro backend etc...)
